@@ -2,4 +2,6 @@ spring:
   application:
     name: config-service
 
-
+management:
+  endpoints:
+    enabled-by-default: false
