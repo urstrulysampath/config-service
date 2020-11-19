@@ -1,18 +1,2 @@
-spring:
-  application:
-    name: customer-service
-
-management:
-  endpoints:
-    enabled-by-default: true
-    health:
-      show-details: always
-      show-componets : always
-      defaults:
-        enabled: true
-
-customer:
-  portal:
-    url: http://customer-service:8080
-
-#debug: true
+debug: true
+logging.level.root: DEBUG
