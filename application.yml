@@ -5,6 +5,9 @@ logging.level.root: INFO
 management:
   endpoints:
     enabled-by-default: true
+    web:
+      exposure:
+        include=*
     health:
       show-details: always
       show-componets : always
