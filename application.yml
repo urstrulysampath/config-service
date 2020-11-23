@@ -7,7 +7,7 @@ management:
     enabled-by-default: true
     web:
       exposure:
-        include=*
+        include:*
     health:
       show-details: always
       show-componets : always
